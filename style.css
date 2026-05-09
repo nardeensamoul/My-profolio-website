@@ -1,0 +1,161 @@
+*{
+    font-family: poppins;
+    background-color: #f8fafc;
+}
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #1E293B;
+}
+#logo{
+    height: 30px;
+    width: 40px;
+    border: none;
+}
+.left{
+    float:left;
+    padding: 20px;
+}
+.right{
+    float:right;
+    padding: 20px 5px;
+}
+li input{
+    border-radius: 20px;
+    height: 30px;
+}
+#login{
+    text-decoration: none;
+    border-radius: 20px;
+    height: 30px;
+    color: black;
+    font-size: 18px;
+    padding: 2px 5px;
+}
+.header{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #1E293B;
+    color: #f8fafc;
+}
+li{
+    font-size: 20px;
+    background-color: #1E293B;
+    color: #f8fafc;
+}
+section{
+    display: flex;
+}
+video{
+    height: 600px;
+    width: 600px;
+    float: right;
+}
+pre{
+    padding: 100px;
+    font-size: 25px;
+    text-wrap-mode: wrap;
+}
+#parent{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    border-width: 1px;
+    border-color: #1E293B;
+    border-style: solid;
+    border-radius: 10px;
+    width: 200px;
+    height: 400px;
+    margin: 20px;
+    text-align: center;
+}
+.cards{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+
+.card:hover{
+    box-shadow: 7px 7px 5px 5px #1E293B;
+    width: 250px;
+    height: 450px;
+    margin: 30px;
+    animation: 3s linear 0s 1 myScale;
+}
+@keyframes myScale{
+    50%{transform: scale(0.5,0.5);}
+}
+
+.card:hover .card:not(:hover){
+    width: 180px;
+    height: 380px;
+}
+#footer{
+    background-color: #1E293B;
+    color: #f8fafc;
+}
+#contact_us {
+    text-align: center;
+    background-color: #1E293B;
+    text-decoration: none;
+
+}
+a{
+    text-decoration: none;
+}
+span pre{
+    background-color: #1E293B;
+    text-wrap-style: auto;
+
+}
+.footer{
+    background-color: #1E293B;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+}
+
+@media (max-width: 600px){
+    #parent{
+        flex-direction: column;
+    }
+.card{
+    margin: 100px;
+    border-width: 1px;
+    border-color: #1E293B;
+    border-style: solid;
+    border-radius: 10px;
+    width: 350px;
+    height: 600px;
+    margin: 20px;
+    text-align: center;
+}
+.cards{
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+}
+video{
+    width: 350px;
+    height: 400px;
+}
+li{
+  text-emphasis: none;  
+  margin: 0px;
+}
+.left{
+    padding: 10px;
+}
+section{
+    display:block;
+}
+pre{
+    padding: 20px;
+    font-size: 30px;
+    text-wrap-mode: wrap;
+    text-indent: 10px;
+}
+}

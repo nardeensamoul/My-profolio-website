@@ -1,0 +1,52 @@
+body{
+    display: flexbox;
+    background-color: #1E293B;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+#login{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.input{
+ height: 50px;   
+ width: 400px;
+ border-radius: 100px;
+ margin: 10px;
+}
+
+.input_name{
+    width: 190px;
+    height: 50px;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+fieldset{
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #f8fafc60;
+    justify-content: center;
+}
+#color{
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+}
+button{
+    background-color: #2e405c;
+    color: #f8fafc;
+    height: 50px;   
+    width: 400px;
+    border-radius: 100px;
+    margin-left: 10px;
+
+}
+a{
+    text-decoration: none;
+    color: #f8fafc;
+    font-size: 30px;
+}

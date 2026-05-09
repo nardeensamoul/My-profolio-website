@@ -128,19 +128,20 @@ span pre{
     border-color: #1E293B;
     border-style: solid;
     border-radius: 10px;
-    width: 350px;
-    height: 600px;
+    width: 200px;
+    height: 500px;
     margin: 20px;
     text-align: center;
 }
 .cards{
-    width: 350px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
     border-radius: 10px;
 }
 video{
-    width: 350px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
+    display:block;
 }
 li{
   text-emphasis: none;  

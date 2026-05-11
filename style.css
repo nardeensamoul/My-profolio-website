@@ -85,6 +85,11 @@ pre{
     margin: 30px;
     animation: 3s linear 0s 1 myScale;
 }
+.cards:hover{
+    width: 200px;
+    height: 300px;
+    animation: 3s linear 0s 1 myScale;
+}
 @keyframes myScale{
     50%{transform: scale(0.5,0.5);}
 }
@@ -112,10 +117,13 @@ span pre{
 
 }
 .footer{
-    background-color: #1E293B;
+    background-color:#f8fafc;
     text-align: center;
+    border-radius: 50%;
     width: 30px;
     height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 600px){
@@ -128,27 +136,27 @@ span pre{
     border-color: #1E293B;
     border-style: solid;
     border-radius: 10px;
-    width: 200px;
+    width: 300px;
     height: 500px;
     margin: 20px;
     text-align: center;
 }
 .cards{
-    width: 200px;
+    width: 300px;
     height: 300px;
     border-radius: 10px;
 }
 video{
-    width: 200px;
-    height: 200px;
-    display:block;
+    width: 350px;
+    height: 350px;
+    display: block;
 }
 li{
   text-emphasis: none;  
   margin: 0px;
 }
 .left{
-    padding: 10px;
+    padding: 5px;
 }
 section{
     display:block;
